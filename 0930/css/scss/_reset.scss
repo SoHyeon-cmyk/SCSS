@@ -1,0 +1,57 @@
+@charset 'utf-8';
+
+
+$primary:color#3f51b5;
+
+html, html *{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+}
+html{
+  font-size: 16px;
+  body{
+    font-family: 'Montserrat',Helvetica;
+    line-height: 1;
+    ul,li{
+      list-style: none;
+    }
+    nav{
+      ul{
+        li{
+          list-style: none;
+        }
+      }
+    }
+    a{
+      text-decoration: none;
+      color: inherit
+    }
+    img{
+      vertical-align: top;
+    }
+    h1{
+      display: block;
+      height: 2px;
+    }
+    input, textarea{
+      width: 100%;
+      border-bottom: 1px solid #757575;
+      color: #3f51b5;
+      font-size: 0.75rem;
+      vertical-align: top;
+      border-radius: 0;
+      box-sizing: content-box;
+    }
+    appearance: none;
+
+    &::placeholder{
+      color: #3f51b5;
+    }
+  }
+}
+@import'mobile';
+@import'tab';
+@import'pc';
