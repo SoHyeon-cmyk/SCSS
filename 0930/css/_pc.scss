@@ -1,0 +1,74 @@
+@media (min-width:1132px){
+  .display-section{
+    text-align: left;
+    .sec-tit{
+      float: left;
+      margin-bottom: 0;
+      width: 20%;
+    }
+    .desc{
+      width: 80%;
+      float: right;
+      padding-left: 20px;
+      box-sizing: border-box;
+      position: relative;
+      &::before{
+        display: block;
+        content: "";
+        top: 9px;
+        left: 0;
+        width: 2px;
+        height: 44px;
+        background-color: #e0e0e0;
+      }
+    }
+  }
+  .promotion-seciton{
+    .promo-list{
+      li{
+        width: 23.6749%;
+        margin-left: 1.7667%;
+      }
+    }
+  }
+  .work-section{
+    .sec-tit{
+      text-align: left;
+      .work-list{
+        li{
+          width: 25%;
+        }
+      }
+    }
+  }
+  .blog-seciton{
+    .sec-tit{
+      float: left;
+      margin-bottom: 0;
+    }
+    .blog-list{
+      float: right;
+      width: 74.5583%;
+    }
+    li{
+      width: 31.7535%;
+      margin-left: 2.3696%;
+    }
+  }
+  .contect-section{
+    .sec-tit{
+      float: left;
+      margin-bottom: 0;
+    }
+    .form-box{
+      float: right;
+      width: 74.5583%;
+      .form, .textarea{
+        width: 78.8151%;
+      }
+      .form{
+        margin-right: 2.3696%;
+      }
+    }
+  }
+}

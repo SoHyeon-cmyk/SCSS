@@ -1,0 +1,104 @@
+@media (min-witdh:768px) {
+    .divider{
+      margin-top: 124px;
+    }
+    .m-divider{
+      margin-top: 124px;
+    }
+    .header{
+      padding: 28px 52px;
+      .gnb{
+        display: block;
+        position: static;
+        float: right;
+        width: auto;
+        margin-top: 6px;
+        background: none;
+        max-height: none;
+        margin-top: 6px;
+        background: none;
+        li{
+          float: left;
+          border-bottom: 0px;
+          margin-left: 21px;
+          a{
+            color: $primary;
+            padding: 0;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+    .promotion-section{
+      margin-top: 110px;
+    }
+    .work-section{
+      margin-top: 118px;
+      .sec-tit{
+        margin-bottom: 76px;
+      }
+      .wrok-list{
+        li{
+          width: 50%;
+          float: left;
+        }
+        a{
+          .info{
+            left: 37px;
+          }
+          &:hover{
+            .info{
+              transform: translateY(37px);
+            }
+          }
+        }
+      }
+    }
+
+
+    .blog-section{
+      margin-top: 124px;
+      .sec-tit{
+        margin-bottom: 76px;
+      }
+      .blog-list{
+        li{
+          float: left;
+          width: 31.5972%;
+          margin-left: 2.6041%;
+          margin-top: 0;
+          &:first-child{
+            margin-left: 0;
+          }
+        }
+      }
+    }
+    .contact-section{
+      margin-top: 176px;
+      .sec-tit{
+        margin-bottom: 76px;
+      }
+      .form-box{
+        .form, .textarea{
+          float: left;
+          width: 48.6979%;
+        }
+        .form{
+          margin-right: 2.6041%;
+          input{
+            &:last-child{
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+    .footer{
+      iframe{
+        height: 432px;
+      }
+      p{
+        margin: 34px 0;
+      }
+    }
+}
